@@ -8,7 +8,7 @@ Created on Thu Jun 26 04:14:46 2025
 import streamlit as st
 import pandas as pd
 import os
-#from openpyxl import load_workbook
+from openpyxl import load_workbook
 
 # Load and process master stock data
 df1 = pd.read_excel('MasterSheet1.xlsx')
